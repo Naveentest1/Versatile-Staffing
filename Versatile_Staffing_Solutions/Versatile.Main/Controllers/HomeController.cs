@@ -10,7 +10,12 @@ namespace WebApplication2.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            List<Menu> menu = new List<Menu>();
+            menu.Add(new Menu() { MenuName = "Home", MenuURL = "" });
+            menu.Add(new Menu() { MenuName = "Services", MenuURL = "" });
+            menu.Add(new Menu() { MenuName = "Careers", MenuURL = "" });
+            menu.Add(new Menu() { MenuName = "Contact", MenuURL = "" });
+            return View(menu);
         }
 
         public ActionResult About()
@@ -26,5 +31,10 @@ namespace WebApplication2.Controllers
 
             return View();
         }
+    }
+    public class Menu
+    {
+        public string MenuName { get; set; }
+        public string MenuURL { get; set; }
     }
 }
