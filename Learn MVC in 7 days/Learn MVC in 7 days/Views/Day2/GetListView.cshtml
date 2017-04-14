@@ -1,0 +1,21 @@
+﻿@using Learn_MVC_in_7_days.ViewModels
+@model Learn_MVC_in_7_days.ViewModels.EmployeeListViewModel
+<body>
+    @*Hello @Model.UserName*@
+    <hr />
+    <div>
+        <table>
+            <tr>
+                <th>Employee Name</th>
+                <th>Salary</th>
+            </tr>
+            @foreach (EmployeeViewModel item in Model.Employees)
+            {
+                <tr>
+                    <td>@item.EmployeeName</td>
+                    <td style="background-color:@item.SalaryColor">@item.Salary</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>

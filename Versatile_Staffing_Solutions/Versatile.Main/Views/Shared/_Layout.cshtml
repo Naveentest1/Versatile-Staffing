@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versatile Group</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body style="color:blue">
+    @*<div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <img src="~/Images/Logo.png" width="40" height="40" />
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"><</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Versatile Group", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li ng-show="">@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Applicant", "About", "Home")</li>
+                    <li>@Html.ActionLink("Employee", "About", "Home")</li>
+                    <li>@Html.ActionLink("Recruiter", "About", "Home")</li>
+                    <li>@Html.ActionLink("Company Executive", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact Us", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Feedback Corner", "Contact", "Home")</li>
+                    <li style="position:relative">@Html.ActionLink("Logout", "Contact", "Home")</li>
+                </ul>
+            </div>
+        </div>
+    </div>*@
+    @*<div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Versatile Group</p>
+        </footer>
+    </div>*@
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <div class="row mar-0 header">
+        <div class="col-xs-6 vertical-center">
+            <h2 class="header-title hidden-sm hidden-xs">
+                Versatile Group
+            </h2>
+            <img src="~/Images/Logo.png" width="40" height="40" />
+        </div>
+    </div>
+    <nav class=" main-nav navbar" role="navigation">
+        <div class="menu-horizontal vertical-center collapse navbar-collapse pad-0 no-transition" id="submenu-navbar">
+            <ul class="nav navbar-nav top-menu">
+                <li class="menu-item" ng-repeat="menu in topMenu.topMenuData" ng-class="{'active':topMenu.$rootScope.activeMenu === menu.componentName}"
+                    ng-click="topMenu.$rootScope.activeMenu = menu.componentName; topMenu.onSearchTextClear(menu.componentName,menu.id,menu.displayName)">
+                    <a href="#" ui-sref="{{menu.componentName}}">
+                        <span class="{{menu.icon}}"></span>
+                        <span class="menu-text">{{menu.displayName}}</span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>©Versatile Group. All rights reserved. Disclaimer | Privacy Policy</p>
+        </footer>
+    </div>
+</body>
+</html>

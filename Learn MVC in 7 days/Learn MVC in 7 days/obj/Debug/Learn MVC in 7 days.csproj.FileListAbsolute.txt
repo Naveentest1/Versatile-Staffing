@@ -1,0 +1,59 @@
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\ApplicationInsights.config
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\roslyn\csc.exe
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\roslyn\vbc.exe
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\roslyn\VBCSCompiler.exe
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Learn MVC in 7 days.dll.config
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Learn MVC in 7 days.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Learn MVC in 7 days.pdb
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Antlr3.Runtime.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\EntityFramework.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\EntityFramework.SqlServer.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Microsoft.AI.Web.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Microsoft.ApplicationInsights.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Newtonsoft.Json.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\System.Web.Helpers.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\System.Web.Mvc.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\System.Web.Optimization.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\System.Web.Razor.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\System.Web.WebPages.Deployment.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\System.Web.WebPages.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\System.Web.WebPages.Razor.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\WebGrease.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\EntityFramework.xml
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\EntityFramework.SqlServer.xml
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Microsoft.AI.Web.xml
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Microsoft.ApplicationInsights.xml
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\System.Web.Helpers.xml
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\System.Web.Mvc.xml
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\System.Web.Optimization.xml
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\System.Web.Razor.xml
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\System.Web.WebPages.xml
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\System.Web.WebPages.Deployment.xml
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\System.Web.WebPages.Razor.xml
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Antlr3.Runtime.pdb
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\bin\Newtonsoft.Json.xml
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\obj\Debug\Learn MVC in 7 days.csprojResolveAssemblyReference.cache
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\obj\Debug\Learn_MVC_in_7_days.Migrations.InitialCreate.resources
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\obj\Debug\Learn MVC in 7 days.csproj.GenerateResource.Cache
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\obj\Debug\Learn MVC in 7 days.dll
+C:\Users\naveen.s\Documents\Visual Studio 2015\Projects\Learn MVC in 7 days\Learn MVC in 7 days\obj\Debug\Learn MVC in 7 days.pdb

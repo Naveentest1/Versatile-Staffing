@@ -1,0 +1,20 @@
+﻿@model Learn_MVC_in_7_days.Models.Employee             
+@*small letter*@
+<div>
+    @{
+        Learn_MVC_in_7_days.Models.Employee emp = (Learn_MVC_in_7_days.Models.Employee)ViewData["Employee"];
+        Learn_MVC_in_7_days.Models.Employee emp1 = (Learn_MVC_in_7_days.Models.Employee)ViewBag.Employee;
+    }
+    Employee Name : @emp1.FirstName @emp1.LastName <br />
+    Employee Salary: @emp1.Salary.ToString("C")
+    <b>Employee Details from View Bag </b><br />
+
+    Employee Name : @emp.FirstName @emp.LastName <br />
+    Employee Salary: @emp.Salary.ToString("C")
+    <b>Employee Details from View data </b><br />
+
+    Employee Name : @Model.FirstName @Model.LastName <br />
+    Employee Salary: @Model.Salary.ToString("C")//
+    <b>Employee Details from View Model </b><br />
+    
+</div>
