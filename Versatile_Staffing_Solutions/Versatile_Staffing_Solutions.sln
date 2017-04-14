@@ -5,9 +5,9 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Versatile.Staffing_Solutions", "Versatile_Staffing_Solutions\Versatile.Staffing_Solutions.csproj", "{34E91792-A2F0-4FC1-BE47-83B051577962}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Versatile.API", "WebApplication1\Versatile.API.csproj", "{D00A261E-BAFC-4720-B926-E595A58A356D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Versatile.API", "Versatile.API\Versatile.API.csproj", "{D00A261E-BAFC-4720-B926-E595A58A356D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Versatile.Main", "WebApplication2\Versatile.Main.csproj", "{C73E2153-C532-4442-8C35-4111F59EDD8F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Versatile.Main", "Versatile.Main\Versatile.Main.csproj", "{C73E2153-C532-4442-8C35-4111F59EDD8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
