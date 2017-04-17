@@ -14,7 +14,7 @@ namespace WebApplication2.Controllers
             menu.Add(new Menu() { MenuName = "Home", MenuURL = "" });
             menu.Add(new Menu() { MenuName = "Services", MenuURL = "" });
             menu.Add(new Menu() { MenuName = "Careers", MenuURL = "" });
-            menu.Add(new Menu() { MenuName = "Contact", MenuURL = "" });
+            menu.Add(new Menu() { MenuName = "Contact Us", MenuURL = "" });
             return View(menu);
         }
 
@@ -25,6 +25,15 @@ namespace WebApplication2.Controllers
             return View();
         }
 
+        public ActionResult Privacy()
+        {
+            return View();
+        }
+
+        public ActionResult Disclaimer()
+        {
+            return View();
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";

@@ -160,9 +160,15 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\Blog.png" />
+    <Content Include="Images\Facebook.png" />
+    <Content Include="Images\Google Plus.png" />
     <Content Include="Images\Jobfair.png" />
+    <Content Include="Images\Linkedin.png" />
     <Content Include="Images\Logo.png" />
     <Content Include="favicon.ico" />
+    <Content Include="Images\Twitter.png" />
+    <Content Include="Images\YouTube.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -194,6 +200,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Privacy.cshtml" />
+    <Content Include="Views\Home\Disclaimer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
