@@ -185,6 +185,17 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\TavantCSSfiles\Tavant1.css" />
+    <Content Include="Scripts\TavantCSSfiles\Tavant2.css" />
+    <Content Include="Scripts\TavantCSSfiles\Tavant3.css" />
+    <Content Include="Scripts\TavantCSSfiles\Tavant4.css" />
+    <Content Include="Scripts\TavantJSfiles\Tavant1.js" />
+    <Content Include="Scripts\TavantJSfiles\Tavant2.js" />
+    <Content Include="Scripts\TavantJSfiles\Tavant3.js" />
+    <Content Include="Scripts\TavantJSfiles\Tavant4.js" />
+    <Content Include="Scripts\TavantJSfiles\Tavant5.js" />
+    <Content Include="Scripts\TavantJSfiles\Tavant6.js" />
+    <Content Include="Scripts\TavantJSfiles\Tavant7.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
