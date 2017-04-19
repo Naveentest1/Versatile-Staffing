@@ -11,7 +11,7 @@
     <meta content="" about="/home" property="dc:title" />
     <meta about="/home" property="sioc:num_replies" content="0" datatype="xsd:integer" />
     <meta name="keywords" content="Software Consulting Services, Software solutions, Offshore Software solutions, IT solutions" />
-    <title>Versatile Groups</title>
+    <title>Versatile Group</title>
     <link type="text/css" href="~/Scripts/TavantCSSfiles/Tavant1.css" rel="stylesheet" media="all"/>
     <link type="text/css" href="~/Scripts/TavantCSSfiles/Tavant2.css" rel="stylesheet" media="all"/>
     <link type="text/css" href="~/Scripts/TavantCSSfiles/Tavant3.css" rel="stylesheet" media="all"/>
@@ -36,21 +36,22 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 </head>
 <body class="html front not-logged-in no-sidebars page-node page-node- page-node-327 node-type-static-pages">
     <div id="wrap" class="clearfix">
-        <div class="region region-top-headerup">
-            <div id="block-block-3" class="block block-block">
-
-
-                <div class="content">
+        <div class="region region-top-headerup" id="privacy">
+            <div id="block-block-3" class="block block-block"><div class="content">
                     <div id="cookie-banner" class="twelvecol">
-                        <a id="cookie-banner-close-button" class="btn btn-inline btn-white btn-close">✖</a>
+                        <a id="cookie-banner-close-button" class="btn btn-inline btn-white btn-close" onclick="ClosePrivacyPolicy()">✖</a>
                         <div id="cookie-banner-text">
                             Our site uses cookies for analytics. If you're unsure about it, take a look at our <a class="cookie-banner-link" href="/Home/Privacy">privacy policy</a>.
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
+        <script>
+            function ClosePrivacyPolicy() {
+                jQuery("#privacy").hide();
+            }
+        </script>
         <header id="header" class="clearfix">
             <hgroup id="logo">
                 <div id="logoimg" style="width:50px;height:50px"><a href="/" title="Versatile"><img src="~/Images/Logo.png" width="50" height="50"></a></div>
@@ -64,30 +65,30 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
                     <div class="content">
                         <ul>
-                            <li><a href="/blog"><img title="Blog" alt="Blog" src="~/Images/Blog.png" style="width:25px;height:25px" /></a></li>
+                            <li><a href="/blog"><img title="Blog" alt="Blog" src="~/Images/sblog.png" style="width:25px;height:25px" /></a></li>
                             <li>
                                 <a href="https://www.facebook.com/TavantTechnologies" target="_blank">
-                                    <img title="Facebook" src="~/Images/Facebook.png" style="width:25px;height:25px" />
+                                    <img title="Facebook" src="~/Images/sfb.png" style="width:25px;height:25px" />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://twitter.com/tavant" target="_blank">
-                                    <img title="Twitter" src="~/Images/Twitter.png" style="width:25px;height:25px" />
+                                    <img title="Twitter" src="~/Images/stwit.png" style="width:25px;height:25px" />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://plus.google.com/+Tavant" target="_blank">
-                                    <img title="Google Plus" src="~/Images/Google Plus.png" style="width:25px;height:25px" />
+                                    <img title="Google Plus" src="~/Images/sgplus.png" style="width:25px;height:25px" />
                                 </a>
                             </li>
                             <li>
                                 <a href="http://www.youtube.com/TavantTechnologies" target="_blank">
-                                    <img title="You Tube" src="~/Images/YouTube.png" style="width:25px;height:25px" />
+                                    <img title="You Tube" src="~/Images/syou.png" style="width:25px;height:25px" />
                                 </a>
                             </li>
                             <li>
                                 <a href="http://www.linkedin.com/company/tavant-technologies" target="_blank">
-                                    <img title="Linkedin" src="~/Images/Linkedin.png" style="width:25px;height:25px" />
+                                    <img title="Linkedin" src="~/Images/sin.png" style="width:25px;height:25px" />
                                 </a>
                             </li>
                         </ul>
@@ -96,11 +97,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                 </div> <!-- /.block -->
             </div>
             <!-- /.region -->
-            <div class="region region-navigation">
+            <div class="region region-navigation" >
                 <div id="block-superfish-1" class="block block-superfish">
 
                     <h2>Main menu</h2>
-
                     <div class="content">
                         <ul id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-default sf-total-items-4 sf-parent-items-4 sf-single-items-0">
                             <li id="menu-571-1" class="active-trail first odd sf-item-1 sf-depth-1 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent">
@@ -135,7 +135,51 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
         </header>
 
         @RenderBody()
+        <div class="floatin-menu">
+            <div class="region region-footer">
+                <div id="block-block-5" class="block block-block">
+                    <div class="content">
+                        <p><a href="/about-us">About Us</a>|<a href="/awards">Awards</a>|<a href="/testimonials">Customers &amp; Testimonials</a>|<a href="/news-and-events">News &amp; Events</a>|<a href="/careers">Careers</a>|<a href="/contact-us">Contact Us</a></p>
+                        <script type="text/javascript">
+                        // <![CDATA[
+                        jQuery(document).ready(function () {
 
+                            var original_position_offset = jQuery('.region-footer').offset();
+                            sticky_offset = original_position_offset.top;
+                            jQuery('.region-footer').css('position', 'fixed');
+                            // every the page is loaded //
+                            fixscrolltofoot();
+                        });
+
+                        jQuery(window).scroll(function () {
+                            // every time the window scrolls //
+                            var original_position_offset = jQuery('.floatin-menu').offset();
+                            sticky_offset = original_position_offset.top;
+                            fixscrolltofoot();
+
+                        });
+
+                        function fixscrolltofoot() {
+                            var sticky_height = jQuery('.region-footer').outerHeight();
+                            var where_scroll = jQuery(window).scrollTop();
+                            var window_height = jQuery(window).height();
+
+
+                            if ((where_scroll + window_height) > sticky_offset) {
+                                jQuery('.region-footer').css('position', 'relative');
+                            }
+
+                            if ((where_scroll + window_height) < (sticky_offset + sticky_height)) {
+                                jQuery('.region-footer').css('position', 'fixed');
+                            }
+                        }
+                        // ]]></script>
+                    </div>
+
+                </div> <!-- /.block -->
+            </div>
+            <!-- /.region -->
+        </div>
         <div id="footer-wrap" class="clearfix">
             <div id="footer">
                 <div id="footer-block-wrap" class="clearfix">
