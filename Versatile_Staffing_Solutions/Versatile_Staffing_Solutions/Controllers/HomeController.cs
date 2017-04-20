@@ -31,8 +31,12 @@ namespace Versatile_Staffing_Solutions.Controllers
 
             return View();
         }
+        public ActionResult Awards()
+        {
+            return View();
+        }
     }
-
+    
     public class Menu
     {
         public string MenuName { get; set; }

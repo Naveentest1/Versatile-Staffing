@@ -1214,7 +1214,9 @@ ul.flex-direction-nav {
 #breadcrumbs {
     color: #E1114C;
 }
-
+#menuheader {
+    color: #E1114C;
+}
     #breadcrumbs a {
         color: #000;
     }
@@ -2286,7 +2288,7 @@ ul.inline, ul.links.inline {
 
 #header .region-navigation {
     float: left;
-    background: url(/sites/all/themes/responsive_business/images/insbg.gif) repeat-x;
+    background: url(/Images/insbg.gif) repeat-x;
     height: 54px;
     margin-top: 11px;
     width: 100%;

@@ -160,11 +160,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\Banner.png" />
+    <Content Include="Images\insbg.gif" />
     <Content Include="Images\Jobfair.png" />
     <Content Include="Images\Logo.png" />
     <Content Include="favicon.ico" />
     <Content Include="Images\Motivation.png" />
     <Content Include="Images\Passion.png" />
+    <Content Include="Images\photo.jpg" />
     <Content Include="Images\sblog.png" />
     <Content Include="Images\sfb.png" />
     <Content Include="Images\sgplus.png" />
@@ -215,6 +218,11 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Privacy.cshtml" />
     <Content Include="Views\Home\Disclaimer.cshtml" />
+    <Content Include="Views\Home\ContactUs.cshtml" />
+    <Content Include="Views\Home\Awards.cshtml" />
+    <Content Include="Views\Home\Testimonials.cshtml" />
+    <Content Include="Views\Home\NewsEvents.cshtml" />
+    <Content Include="Views\Home\ManagementTeam.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
