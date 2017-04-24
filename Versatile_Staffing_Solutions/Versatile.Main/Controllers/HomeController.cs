@@ -87,5 +87,29 @@ namespace WebApplication2.Controllers
         {
             return View();
         }
+        public ActionResult consumerlending()
+        {
+            return View();
+        }
+
+        public ActionResult manufacturing()
+        {
+            return View();
+        }
+
+        public ActionResult retail()
+        {
+            return View();
+        }
+
+        public ActionResult servicesStaffing()
+        {
+            return View();
+        }
+
+        public ActionResult consultancy()
+        {
+            return View();
+        }
     }
 }

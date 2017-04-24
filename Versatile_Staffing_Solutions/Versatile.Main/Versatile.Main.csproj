@@ -160,7 +160,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\App_dev.png.jpeg" />
     <Content Include="Images\Banner.png" />
+    <Content Include="Images\bi.png" />
     <Content Include="Images\capital.png" />
     <Content Include="Images\Careers.png" />
     <Content Include="Images\consumer.png" />
@@ -236,6 +238,11 @@
     <Content Include="Views\Home\mottoSoftware.cshtml" />
     <Content Include="Views\Home\servicesTesting.cshtml" />
     <Content Include="Views\Home\servicesDevelopment.cshtml" />
+    <Content Include="Views\Home\consumerlending.cshtml" />
+    <Content Include="Views\Home\manufacturing.cshtml" />
+    <Content Include="Views\Home\retail.cshtml" />
+    <Content Include="Views\Home\servicesStaffing.cshtml" />
+    <Content Include="Views\Home\consultancy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
