@@ -58,5 +58,34 @@ namespace WebApplication2.Controllers
         {
             return View();
         }
+        public ActionResult Aboutus()
+        {
+            return View();
+        }
+
+        public ActionResult Careers()
+        {
+            return View();
+        }
+
+        public ActionResult mottoStaffing()
+        {
+            return View();
+        }
+
+        public ActionResult mottoSoftware()
+        {
+            return View();
+        }
+
+        public ActionResult servicesTesting()
+        {
+            return View();
+        }
+
+        public ActionResult servicesDevelopment()
+        {
+            return View();
+        }
     }
 }

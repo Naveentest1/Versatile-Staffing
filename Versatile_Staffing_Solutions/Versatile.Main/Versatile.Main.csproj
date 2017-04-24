@@ -161,19 +161,26 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Images\Banner.png" />
+    <Content Include="Images\capital.png" />
+    <Content Include="Images\Careers.png" />
+    <Content Include="Images\consumer.png" />
     <Content Include="Images\insbg.gif" />
     <Content Include="Images\Jobfair.png" />
     <Content Include="Images\Logo.png" />
     <Content Include="favicon.ico" />
+    <Content Include="Images\Logo1.png" />
+    <Content Include="Images\manufacturing.png" />
     <Content Include="Images\Motivation.png" />
     <Content Include="Images\Passion.png" />
     <Content Include="Images\photo.jpg" />
+    <Content Include="Images\Retail.png" />
     <Content Include="Images\sblog.png" />
     <Content Include="Images\sfb.png" />
     <Content Include="Images\sgplus.png" />
     <Content Include="Images\sin.png" />
     <Content Include="Images\stwit.png" />
     <Content Include="Images\syou.png" />
+    <Content Include="Images\testing.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -223,6 +230,12 @@
     <Content Include="Views\Home\Testimonials.cshtml" />
     <Content Include="Views\Home\NewsEvents.cshtml" />
     <Content Include="Views\Home\ManagementTeam.cshtml" />
+    <Content Include="Views\Home\Aboutus.cshtml" />
+    <Content Include="Views\Home\Careers.cshtml" />
+    <Content Include="Views\Home\mottoStaffing.cshtml" />
+    <Content Include="Views\Home\mottoSoftware.cshtml" />
+    <Content Include="Views\Home\servicesTesting.cshtml" />
+    <Content Include="Views\Home\servicesDevelopment.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
