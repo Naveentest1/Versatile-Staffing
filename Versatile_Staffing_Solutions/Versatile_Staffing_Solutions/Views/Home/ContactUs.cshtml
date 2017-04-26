@@ -1,0 +1,101 @@
+﻿
+@{
+    ViewBag.Title = "ContactUs";
+}
+<div id="main" class="clearfix">
+    <div>
+        <section id="content" role="main" class="clearfix">
+            <div id="breadcrumbs"><h2 class="element-invisible">You are here</h2><nav class="breadcrumb"><a href="/">Home</a> » <a href="/home">Corporate</a> » Contact Us</nav></div>                                                      <div class="region region-content">
+                <div id="block-system-main" class="block block-system">
+                    <div class="content">
+                        <div about="/contact-us" typeof="sioc:Item foaf:Document" class="ds-1col node node-static-pages node-full view-mode-full clearfix">
+                            <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><h1 style="color:#E1114C">Contact Us</h1></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                <div class="field-items">
+                                    <div class="field-item even" property="content:encoded">
+                                        <p>Get in touch with people who are passionate about providing Human Resources for various Industries.</p>
+                                        <div class="con-career">
+                                            <h3>General Info /Careers</h3>
+                                            <p>Email: <a href="mailto:versatilegroup@yahoo.com">versatilegroup@yahoo.com</a></p>
+                                            <p>Telephone: +91-80-2836-5536</p>
+                                            <p>Mobile: +91-9880492680</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="block-views-contact-us-block" class="block block-views">
+                    <div class="content">
+                        <div class="view view-contact-us view-id-contact_us view-display-id-block view-dom-id-6e623df397ffedcd0662ee0443871564">
+                            <div class="view-content">
+                                <table class="views-view-grid cols-1">
+                                    <tbody>
+                                        <tr class="row-1 row-last">
+                                            <td class="col-1">
+                                                <div class="views-field views-field-title">
+                                                    <div class="field-content">
+                                                        <div>
+                                                            <a href="/content/bangalore">Bangalore</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="views-field views-field-gsl-addressfield">
+                                                    <div class="field-content">
+                                                        <div>
+                                                            <div class="street-block"><div class="thoroughfare">Versatile Group India Pvt. Ltd.</div><div class="premise">#284/1, 5th Cross 2nd Main Srigandhanagar Hegganahalli</div></div><div class="addressfield-container-inline locality-block country-IN"><span class="locality">Bangalore</span>  <span class="state">Karnataka</span>  <span class="postal-code">560 091</span></div><span class="country">India</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="views-field views-field-body">
+                                                    <div class="field-content">
+                                                        <div>
+                                                            <p>
+                                                                Email: <a href="mailto:versatilegroup@yahoo.com">versatilegroup@yahoo.com</a><br />
+                                                                Telephone: +91-80-2836-5536<br />
+                                                                Mobile: +91-9880492680
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="region region-content-first">
+                <div id="block-views-map-block" class="block block-views">
+                    <h2>Map View</h2>
+                    <div class="content">
+                        <div class="view">
+                            <div class="view-content">
+                                <div style="width: 100%; height: 300px" id="map"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script>
+            function initMap() {
+                var uluru = { lat: 13.002228, lng: 77.505650 };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 4,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfglepnCZ4yaygv24J4z1CERuSmPbliRo&callback=initMap">
+        </script>
+    </div>
+</div>

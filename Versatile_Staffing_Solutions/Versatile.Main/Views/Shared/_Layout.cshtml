@@ -379,8 +379,9 @@ var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-5467348-2"]);_gaq.push(["_tr
             </div>
             <!-- /.region -->
         </header>
-
+        
         @RenderBody()
+        @RenderSection("featured", required: false)
         <div class="floatin-menu">
             <div class="region region-footer" style="text-align:center">
                 <div id="block-block-5" class="block block-block">

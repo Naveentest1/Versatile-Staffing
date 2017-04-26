@@ -35,6 +35,92 @@ namespace Versatile_Staffing_Solutions.Controllers
         {
             return View();
         }
+
+        public ActionResult Privacy()
+        {
+            return View();
+        }
+
+        public ActionResult Disclaimer()
+        {
+            return View();
+        }
+
+        public ActionResult ContactUs()
+        {
+            return View();
+        }
+        public ActionResult Testimonials()
+        {
+            return View();
+        }
+        public ActionResult NewsEvents()
+        {
+            return View();
+        }
+
+        public ActionResult ManagementTeam()
+        {
+            return View();
+        }
+        public ActionResult Aboutus()
+        {
+            return View();
+        }
+
+        public ActionResult Careers()
+        {
+            return View();
+        }
+
+        public ActionResult mottoStaffing()
+        {
+            return View();
+        }
+
+        public ActionResult mottoSoftware()
+        {
+            return View();
+        }
+
+        public ActionResult servicesTesting()
+        {
+            return View();
+        }
+
+        public ActionResult servicesDevelopment()
+        {
+            return View();
+        }
+        public ActionResult consumerlending()
+        {
+            return View();
+        }
+
+        public ActionResult manufacturing()
+        {
+            return View();
+        }
+
+        public ActionResult retail()
+        {
+            return View();
+        }
+
+        public ActionResult servicesStaffing()
+        {
+            return View();
+        }
+
+        public ActionResult consultancy()
+        {
+            return View();
+        }
+
+        public ActionResult mechanical()
+        {
+            return View();
+        }
     }
     
     public class Menu

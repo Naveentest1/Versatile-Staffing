@@ -110,3 +110,4 @@ C:\Users\naveen.s\Desktop\Versatile Staffing\Versatile_Staffing_Solutions\Versat
 C:\Users\naveen.s\Desktop\Versatile Staffing\Versatile_Staffing_Solutions\Versatile_Staffing_Solutions\bin\Newtonsoft.Json.xml
 C:\Users\naveen.s\Desktop\Versatile Staffing\Versatile_Staffing_Solutions\Versatile_Staffing_Solutions\obj\Debug\Versatile_Staffing_Solutions.dll
 C:\Users\naveen.s\Desktop\Versatile Staffing\Versatile_Staffing_Solutions\Versatile_Staffing_Solutions\obj\Debug\Versatile_Staffing_Solutions.pdb
+C:\Users\naveen.s\Desktop\Versatile Staffing\Versatile_Staffing_Solutions\Versatile_Staffing_Solutions\obj\Debug\Versatile.Staffing_Solutions.csprojResolveAssemblyReference.cache
